@@ -14,7 +14,7 @@ spec:
         app: youtube
     spec:
       containers:
-      - name: spring-boot-container
+      - name: youtube-container
         image: docker push 295428651620.dkr.ecr.us-east-1.amazonaws.com/youtube:tagversion
         ports:
         - containerPort: 3000

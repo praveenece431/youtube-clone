@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: youtube-container
-        image: docker push 295428651620.dkr.ecr.us-east-1.amazonaws.com/youtube:tagversion
+        image: 587861061090.dkr.ecr.us-east-1.amazonaws.com/youtube:tagversion
         ports:
         - containerPort: 3000
 ---
